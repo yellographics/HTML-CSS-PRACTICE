@@ -1,0 +1,43 @@
+.newsletter {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .newsletter h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.8px;
+ }
+
+ .newsletter-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+ }
+
+ .newsletter-wrapper input {
+    padding: 11px 0 11px 16px;
+    margin-right: -4px;
+    height: 37px;
+    box-sizing: border-box;       
+ }
+
+ .newsletter-wrapper input:focus {
+    outline: 1px solid #00b7ff; 
+ }
+
+ .newsletter-wrapper button {
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;    
+ }
+
+ .newsletter-wrapper input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #48555B;
+ }

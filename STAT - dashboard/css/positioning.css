@@ -1,0 +1,68 @@
+body {
+    display: grid;    
+    grid-template-columns: 100px auto;
+    grid-template-rows: 140px auto;
+    grid-template-areas: 
+        'nav header'
+        'nav panels';
+}
+
+.main-navigation {
+    grid-area: nav;    
+}
+
+.panels-header {
+    grid-area: header;    
+}
+.panels-header, .panels {
+    margin: 0 auto;    
+    width: 100%;
+    max-width: 1088px;
+}
+
+.panels {
+    grid-area: panels;
+    display: flex;
+    align-items: flex-start;      
+    flex-wrap: wrap;   
+    gap: 32px;   
+    
+}
+
+.people {
+    width: 100%;
+    max-width: 341px; 
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 40px;    
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.people h2 {
+    width: 163px;
+}
+
+.audience-reach {
+    width: 100%;
+    max-width: 768px;
+}
+
+.reach-by-device {
+    width: 100%;
+    width: 288px;
+}
+
+.gender-age {
+    width: 100%;
+    max-width: 675px;
+    min-height: 242px;
+}
+
+.geo {
+    width: 100%;
+    max-width: 381px;
+    min-height: 242px;
+}
+
+

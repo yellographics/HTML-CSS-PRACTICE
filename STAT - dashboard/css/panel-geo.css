@@ -1,0 +1,91 @@
+.geo div.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.geo div a:nth-child(2n) {
+    margin-left: 155px;
+}
+
+.geo div a {
+    padding-left: 34px;
+    color: #979797;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.geo a.active {
+    color: #4F4F4F;
+    font-family: 'Gilroy-Semibold', sans-serif;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country-name {
+    width: 105px;
+    float: left; 
+    font-size: 12px;
+    line-height: 14px;    
+}
+
+.country-percentage {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+
+.progress {
+    height: 10px;
+    width: 140px;
+    background-color: #EFF3F9;
+    border-radius: 9px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-percentage {
+    height: 10px;
+    background: #7F7FD5;
+    border-radius: 6px;
+}
+
+.russia {
+    width: 94%;
+}
+
+.china {
+    width: 26%;
+}
+
+.ukraine {
+    width: 20%
+}
+
+.usa {
+    width: 20%
+}
+
+.mongolia {
+    width: 13%
+}
+
+.other {
+    width: 17%
+}
+
+
+
+
+
+
+
+
+
+
+
+

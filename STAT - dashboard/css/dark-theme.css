@@ -1,0 +1,72 @@
+.dark {
+    background-color: #212427;
+}
+
+.dark .main-navigation {
+    background-color: #282C31;
+    border-right: 1px solid #4D4D4D;
+}
+
+.dark .main-navigation i {
+    background-color: #282C31;    
+}
+
+.dark .panel {
+    background-color: #282C31;
+    border: 1px solid #4D4D4D;
+}
+
+.dark h1, .dark h2, .dark p {
+    color: #CACACA;
+}
+
+.dark .panel-nav input[type="search"] {
+    background-color: transparent;
+    border-color: #4C4C4C;
+    color: #bebebe;    
+}
+
+.dark .fa-bell {
+    color: #CACACA;
+}
+
+.dark .fa-chevron-down {
+    color: #CACACA;
+}
+
+.dark .round {
+    border: 2px solid #282C31;
+}
+
+.dark p.percentage {
+    color: #979797;    
+}
+
+.dark .audience-reach input[type="text"] {
+    background-color: transparent;
+    color: #CACACA;
+}
+
+.dark .audience-reach span {
+    color: #CACACA;
+}
+
+.dark .audience-reach table td {
+    border-color: #4D4D4D;
+}
+
+.dark .white-piece {
+    stroke: #282C31;
+}
+
+.dark .gender-age table td {
+    border-color: #4D4D4D;
+}
+
+.dark .geo a.active {
+    color: #CACACA;
+}
+
+.dark .country-name, .dark .country-percentage {
+    color: #979797;
+}

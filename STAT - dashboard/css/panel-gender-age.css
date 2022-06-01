@@ -1,0 +1,134 @@
+.gender-age div {
+    display: flex;
+    align-items: center;    
+}
+
+.gender-age .rect.pink {
+    margin-left: 320px;
+}
+
+.gender-age p {
+    font-family: "Gilroy-Semibold";
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.gender-age table {
+    margin-top: 30px;
+    margin-left: 44px;
+    position: relative; 
+    border-collapse: collapse;
+    width: 570px;
+}
+
+.gender-age table td {
+    height: 60px;
+    border: 1px solid #EFF3F9;  
+    width: 81px;
+}
+
+.gender-age th {
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    padding-top: 10px;    
+}
+
+.gender-age .left-dash span {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;  
+}
+
+.gender-age .left-dash.top span {
+   top: -10px;
+   left: -35px;
+}
+
+.gender-age .left-dash.middle span {
+    top: -10px;
+    left: -35px;
+}
+
+.gender-age .left-dash.bottom span {
+    top: 50px;
+    left: -105px;
+}
+
+.gender-age .left-dash.middle div {
+    top: -1px;
+    left: -7px;
+}
+
+.gender-age .left-dash.bottom div {
+    top: 59px;
+    left: -78px;
+}
+
+.gender-age .rect {
+    min-width: 16px;
+}
+
+
+/* color columns */
+
+.gender-age table td {
+    position: relative;
+}
+
+.gender-age .left-dash.middle .graph-small {
+    width: 22px;
+    height: 2px;
+    background-color: #7F7FD5;
+    top: 57px;
+    left: 35px;
+}
+
+.gender-age .left-dash.middle .graph-small.pink {
+    background-color: #E786D7;
+    top: 57px;
+    left: 13px;
+}
+
+.gender-age .left-dash.bottom .graph-small.pink {
+    background-color: #E786D7;
+    width: 22px;
+    height: 2px;
+    top: 57px;
+    left: 13px;
+}
+
+.gender-age .left-dash.bottom .graph-middle {
+    width: 22px;
+    height: 58px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #7F7FD5;
+    top: 1px;
+    left: 35px;
+}
+
+.gender-age .left-dash.bottom .graph-small.pink.big {
+    height: 100px;
+    top: -41px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.gender-age .left-dash.bottom .graph-small.pink.low {
+    height: 20px;
+    top: 39px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.gender-age .left-dash.bottom .graph-middle.low {
+    height: 15px;
+    top: 44px;
+}

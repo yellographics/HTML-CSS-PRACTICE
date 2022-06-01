@@ -1,0 +1,84 @@
+footer {
+    height: 101px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {       
+    list-style: none;
+    padding-left: 0;
+    display: flex; 
+    align-items: center;   
+    margin-top: 30px; 
+    margin-bottom: 18px;     
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    padding-bottom: 15px;
+    line-height: 16px;
+}
+
+div.social-icon-one {
+    height: 23px;
+    width: 12px;
+    background-image: url(../assets/images/social.png);
+    margin-right: 32px;
+}
+
+div.social-icon-two {
+    height: 17px;
+    width: 23px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -44px -4px;
+    margin-right: 30px;      
+}
+
+div.social-icon-three {
+    height: 23px; 
+    width: 22px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -95px;
+    margin-right: 30px;
+}
+
+div.social-icon-four {
+    height: 21px; 
+    width: 22px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -140px -2px;
+    margin-right: 30px;          
+}
+
+div.isocial-icon-five {
+    height: 21px; 
+    width: 22px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -191px -2px;
+    margin-right: 30px;       
+}
+
+div.social-icon-six {
+    height: 21px; 
+    width: 27px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -242px -2px;
+    margin-right: 30px;     
+}
+
+div.social-icon-seven {
+    height: 19px; 
+    width: 19px; 
+    background-image: url(../assets/images/social.png);
+    background-position: -298px -2px;     
+}
+
+li.icon-4, li.icon-5, li.icon-6 {
+    align-self: flex-end;
+}

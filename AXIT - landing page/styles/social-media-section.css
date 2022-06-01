@@ -1,0 +1,80 @@
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8EFEF;
+    min-height: 110px;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+div.icon-one {
+    height: 42px;
+    width: 28px;
+    background-image: url(../assets/images/social-big.png);
+    margin-right: 70px;
+}
+
+div.icon-two {
+    height: 42px;
+    width: 45px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -87px -2px;
+    margin-right: 70px;
+}
+
+div.icon-three {
+    height: 42px;
+    width: 46px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -190px;
+    margin-right: 70px;
+}
+
+div.icon-four {
+    height: 42px;
+    width: 46px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -282px -3px;
+    margin-right: 70px;
+}
+
+div.icon-five {
+    height: 42px;
+    width: 46px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -382px -3px;
+    margin-right: 70px;
+}
+
+div.icon-six {
+    height: 42px;
+    width: 58px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -480px -3px;
+    margin-right: 70px;
+}
+
+div.icon-seven {
+    height: 42px;
+    width: 44px;
+    background-image: url(../assets/images/social-big.png);
+    background-position: -590px -3px;      
+}
+
+.social-media-text h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;    
+    margin: 14px 0 14px 0;
+}
+
+.social-media-text p {
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 17px 0;
+}

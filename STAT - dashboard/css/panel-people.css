@@ -1,0 +1,27 @@
+.people p {
+    color: #4F4F4F;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.fa-ellipsis-h {
+    color: #979797;
+}
+
+p.percentage {
+    color: #979797;;
+}
+
+p.up::after{
+    content: "↑";
+    color: #7F7FD5;
+    padding-left: 12px;
+    
+}
+
+p.down::after {
+    content: "↓";
+    color: #E786D7;
+    padding-left: 12px;
+}
+

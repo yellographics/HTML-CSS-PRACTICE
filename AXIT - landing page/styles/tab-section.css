@@ -1,0 +1,77 @@
+.tab-section {    
+    background-color: #ffffff;  
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 125px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.tab {
+    box-sizing: border-box;
+    width: 112px;
+    height: 110px;
+    background-color: #333333;
+    border-radius: 4px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tab:hover {
+    background-color: #ec7979;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.tab:active {
+    background-color: #ec4c4c;
+}
+
+
+.tab-description {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.tab-text {
+    max-width: 572px;
+}
+
+.tab-text h1 {
+    font-family: 'Open Sans', sans-serif;    
+    text-align: left;
+    padding: 0 0 58px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tab-text p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.tab-text .download-button {    
+    background-color: #EC7979;
+    border: 1px solid #FFFFFF;
+    margin-top: 80px;    
+}
+
+.tab-text .download-button:hover {
+    color: #ffffff;
+    background-color: #eb5656;
+}

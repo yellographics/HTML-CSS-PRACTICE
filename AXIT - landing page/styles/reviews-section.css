@@ -1,0 +1,67 @@
+.reviews-section {
+    height: fit-content;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 67px;
+}
+
+.review {    
+    width: 298px;
+    margin: 0px 56px 119px 56px;    
+}
+
+.review-text {
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;  
+    align-items: center;       
+}
+
+.review-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;      
+    margin: 0;    
+    padding-left: 26px;
+    padding-right: 26px; 
+}
+
+.author-info {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.author-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.review-img {
+    width: 70px;
+    height: 70px;
+}
+
+.review-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+}
+
+.review-jp {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    margin: 0;
+}

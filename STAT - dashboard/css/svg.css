@@ -1,0 +1,29 @@
+svg {   
+  height: 121px;
+  width: 136px;
+}
+  
+.pie {    
+  fill: #7F7FD5;  
+}
+
+.white-piece {    
+  fill: transparent;
+  stroke: white;
+  stroke-width: 10;
+  stroke-dasharray: calc(14 * 31.42 / 100) 31.42;  
+}
+  
+.pink-piece {    
+  fill: transparent;
+  stroke: #E786D7;
+  stroke-width: 10;
+  stroke-dasharray: calc(14 * 31.42 / 100) 31.42;  
+}
+  
+svg text {  
+  font-size: 2.5px;  
+  fill: white;
+}
+
+

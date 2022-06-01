@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout 3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/positioning.css">
+  <link rel="stylesheet" href="css/main-navigation.css">
+  <link rel="stylesheet" href="css/panels-header.css">
+  <link rel="stylesheet" href="css/panel-people.css">
+  <link rel="stylesheet" href="css/panel-audience-reach.css">
+  <link rel="stylesheet" href="css/panel-reach-by-device.css">
+  <link rel="stylesheet" href="css/panel-gender-age.css">
+  <link rel="stylesheet" href="css/panel-geo.css">
+  <link rel="stylesheet" href="css/toggle.css">
+  <link rel="stylesheet" href="css/svg.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+  <link rel="stylesheet" href="css/dark-theme.css">
+</head>
+
+<body>
+  <nav class="main-navigation">
+    <a><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+    <ul>
+      <li><a href=""><i class="fas fa-home"></i></a></li>
+      <li><a href=""><i class="far fa-newspaper"></i></a></li>
+      <li><a href=""><i class="fas fa-user-friends"></i></a></li>
+      <li><a href=""><i class="fas fa-envelope"></i></a></li>
+      <li><a href=""><i class="fas fa-play"></i></a></li>
+      <li class="active"><a href=""><i class="fas fa-chart-bar"></i></a></li>
+      <li><a href=""><i class="fas fa-cog"></i></a></li>
+    </ul>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider"></span>
+    </label>
+  </nav>
+  <div class="panels-header">
+    <div class="panel-nav">
+      <h1>Statistics</h1>
+      <form action="">
+        <input type="search" name="stats-search" id="stats-search" placeholder="Search">
+        <i class="fas fa-search"></i>
+      </form>
+      <div class="notification">
+        <a href="#"><i class="fas fa-bell"></i></a>
+        <div class="round"></div>
+      </div>
+    </div>
+    <div class="user-account">
+      <p>Anya</p>
+      <img src="assets/img/avatar.jpg" alt="user-avatar">
+      <i class="fas fa-chevron-down"></i>
+      <ul class="dropdown">
+        <li>Acconut settings</li>
+        <li>Support forum</li>
+        <li>Log out</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panels">
+    <div class="panel people">
+      <h2>Friends</h2>
+      <i class="fas fa-ellipsis-h"></i>
+      <p class="people-number">271 people</p>
+      <p class="percentage up">- 1,7%</p>
+    </div>
+    <div class="panel people">
+      <h2>Unique visitors</h2>
+      <i class="fas fa-ellipsis-h"></i>
+      <p class="people-number">69 people</p>
+      <p class="percentage down">- 0,7%</p>
+    </div>
+    <div class="panel people">
+      <h2>Followers </h2>
+      <i class="fas fa-ellipsis-h"></i>
+      <p class="people-number">288 people</p>
+      <p class="percentage up">+ 1%</p>
+    </div>
+    <div class="panel audience-reach">
+      <h2>Audience reach</h2>
+      <form action="">
+        <input type="text" name="daterange" value="31/01/2020 - 06/02/2020" />
+        <i class="fas fa-chevron-down"></i>
+      </form>
+      <div class="checkbox"><i class="fas fa-check"></i>
+      </div>
+      <span>Total</span>
+      <div class="checkbox pink"></div>
+      <span>Follower</span>
+      <table>
+        <tr>
+          <td class="left-dash top"><span>3</span>
+            <div></div>
+          </td>
+          <td><img src="assets/img/line.png"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="left-dash middle"><span>1,5</span>
+            <div></div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="left-dash bottom"><span>0</span>
+            <div></div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+          </td>
+          <td class="bottom-dash">
+            <div></div>
+            <div class="dash-right"></div>
+          </td>
+        </tr>
+        <tr>
+          <th>31/01</th>
+          <th>01/02</th>
+          <th>02/02</th>
+          <th>03/02</th>
+          <th>31/01</th>
+          <th>04/02</th>
+          <th>05/02</th>
+          <th class="bottom-dash">06/02</th>
+        </tr>
+      </table>
+    </div>
+    <div class="panel reach-by-device">
+      <h2>Reach by device</h2>
+      <div class="chart">
+        <svg width="20px" height="20px" viewBox="0 0 20 20">
+          <circle r="10" cx="8.8" cy="10" class="pie" />
+          <circle r="5" cx="8" cy="10" class="white-piece" transform="rotate(-55) translate(-11.1 3)" />
+          <circle r="5" cx="8" cy="10" class="pink-piece" transform="rotate(-55) translate(-8.7 4.1)" />
+          <text x="3" y="14">86%</text>
+          <text x="14.6" y="6.5">14%</text>
+        </svg>
+        <legend>
+          <div>
+            <div class="rect"></div>
+            <p>Desktop</p>
+          </div>
+          <div>
+            <div class="rect pink"></div>
+            <p>Mobile views</p>
+          </div>
+        </legend>
+      </div>
+    </div>
+    <div class="panel gender-age">
+      <div>
+        <h2>Gender / Age</h2>
+        <div class="rect pink"></div>
+        <p>women</p>
+        <div class="rect"></div>
+        <p>men</p>
+      </div>
+      <table>
+        <tr>
+          <td class="left-dash top">
+            <span>40%</span>
+            <div></div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="left-dash middle">
+            <span>20%</span>
+            <div></div>
+            <div class="graph-small pink"></div>
+            <div class="graph-small"></div>
+          </td>
+          <td class="left-dash bottom">
+            <span>0%</span>
+            <div></div>
+            <div class="graph-small pink"></div>
+            <div class="graph-middle"></div>
+          </td>
+          <td class="left-dash bottom">
+            <div class="graph-small pink"></div>
+            <div class="graph-middle"></div>
+          </td>
+          <td class="left-dash bottom">
+            <div class="graph-small pink big"></div>
+            <div class="graph-middle"></div>
+          </td>
+          <td class="left-dash bottom">
+            <div class="graph-small pink big"></div>
+            <div class="graph-middle low"></div>
+          </td>
+          <td class="left-dash middle">
+            <div class="graph-small pink"></div>
+            <div class="graph-small"></div>
+          </td>
+          <td class="left-dash bottom">
+            <div class="graph-small pink"></div>
+            <div class="graph-middle"></div>
+          </td>
+          <td class="left-dash bottom">
+            <div class="graph-small pink low"></div>
+            <div class="graph-middle"></div>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <span>&lt; 18</span>
+          </th>
+          <th>
+            <span>18 - 21</span>
+          </th>
+          <th>
+            <span>21 - 24</span>
+          </th>
+          <th>
+            <span>24 - 27</span>
+          </th>
+          <th>
+            <span>27 - 30</span>
+          </th>
+          <th>
+            <span>30 - 35</span>
+          </th>
+          <th>
+            <span>35 - 40</span>
+          </th>
+          <th>
+            <span>&gt; 40</span>
+          </th>
+          <th></th>
+        </tr>
+      </table>
+    </div>
+    <div class="panel geo">
+      <div class="header">
+        <h2>Geo</h2>
+        <a class="active">Country</a>
+        <a>City</a>
+      </div>
+      <div class="countries">
+        <div class="country">
+          <p class="country-name">Russia</p>
+          <p class="country-percentage">94%</p>
+          <div class="progress">
+            <div class="progress-percentage russia">
+            </div>
+          </div>
+        </div>
+        <div class="country">
+          <p class="country-name">China</p>
+          <p class="country-percentage">0,26%</p>
+          <div class="progress">
+            <div class="progress-percentage china">
+            </div>
+          </div>
+        </div>
+        <div class="country">
+          <p class="country-name">Ukraine</p>
+          <p class="country-percentage">0,20%</p>
+          <div class="progress">
+            <div class="progress-percentage ukraine">
+            </div>
+          </div>
+        </div>
+        <div class="country">
+          <p class="country-name">USA</p>
+          <p class="country-percentage">0,20%</p>
+          <div class="progress">
+            <div class="progress-percentage usa">
+            </div>
+          </div>
+        </div>
+        <div class="country">
+          <p class="country-name">Mongolia</p>
+          <p class="country-percentage">0,13%</p>
+          <div class="progress">
+            <div class="progress-percentage mongolia">
+            </div>
+          </div>
+        </div>
+        <div class="country">
+          <p class="country-name">Other</p>
+          <p class="country-percentage">1,37%</p>
+          <div class="progress">
+            <div class="progress-percentage other">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

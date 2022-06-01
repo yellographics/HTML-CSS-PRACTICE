@@ -1,0 +1,62 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.about-container-description {
+    display: flex;      
+    gap: 75px;
+    margin-top: 30px;
+}
+
+.about-container-description-text b {
+    font-size: 20px;
+    font-weight: 700;
+    color: #48555B;
+}
+
+.about-container-description-text span {
+    color: #00A4E5;
+}
+
+.about-container-description-text p {
+    font-size: 13px;
+    line-height: 23px;
+    color: #48555B;
+    margin-top: 30px;
+}
+
+.about-container-description-images {
+    padding-left: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.about-container-description-images-image {
+    width: 140px;
+    height: 225px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: 23px;
+    padding-top: 23px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plan {
+    background-image: url('../assets/images/plan.png');
+}
+
+.manage {
+    background-image: url('../assets/images/manage.png');
+}
+
+.build{
+    background-image: url('../assets/images/build.png');
+}

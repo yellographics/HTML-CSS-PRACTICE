@@ -1,0 +1,30 @@
+.cta {
+    min-height: 326px;    
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('../assets/images/back.png');               
+}
+
+.cta .line {
+    background-color: #ffffff;
+
+}
+
+.cta h1 {
+    padding-top: 76px;
+    padding-bottom: 48px;
+}
+
+.cta .download-button {
+    margin: 30px auto 0;
+}
+
+.cta .download-button:hover {
+    color: #ffffff;
+    background-color: #eb5656;
+}
+
+.cta .desc {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    font-size: 16px;
+}

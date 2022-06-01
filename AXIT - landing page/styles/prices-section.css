@@ -1,0 +1,86 @@
+.prices-section {
+    background-color: #F5F5F5;
+    min-height: 800px;
+}
+
+.pricing-plans {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 47px;
+    gap: 80px;
+}
+
+.plan {    
+    width: 340px;     
+    display: flex;
+    flex-direction: column;  
+    text-align: center;   
+    margin-bottom: 20px;      
+}
+
+.plan-name, .plan-cost, .plan-duration, .plan-feature {
+    margin-bottom: 2px;
+}
+
+
+.plan-name, .plan-cost, .plan-duration {
+    background-color: #333333;
+}
+
+.plan-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    min-height: 50px;
+    padding-top: 15px;  
+    box-sizing: border-box;  
+}
+
+.plan-cost {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 100px;
+    padding-top: 26px;  
+    box-sizing: border-box; 
+}
+
+.plan-duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    min-height: 50px;
+    padding-top: 17px;  
+    box-sizing: border-box; 
+}
+
+.plan-feature {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+    min-height: 40px;
+    padding-top: 10px;  
+    box-sizing: border-box; 
+    background-color: #FFFFFF;
+}
+
+.plan-name p {
+    margin: 0;
+}
+
+.plan-cost p {
+    margin: 0;
+}
+
+.plan-duration p {
+    margin: 0;
+}
+
+.plan-feature p {
+    margin: 0;
+}
+
+.low {
+    padding-top: 10px;
+}

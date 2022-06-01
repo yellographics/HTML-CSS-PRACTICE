@@ -1,0 +1,148 @@
+.audience-reach {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 242px;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.audience-reach table {
+    min-width: 636px;
+    height: 118px;
+}
+
+.audience-reach .fa-chevron-down {
+    margin-right: 30px;
+}
+
+.audience-reach .checkbox {
+    position: relative;
+}
+
+.audience-reach .fa-check {
+    position: absolute;
+    font-size: 12px;
+    color: #7F7FD5;
+}
+
+.audience-reach .checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #7F7FD5;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-left: 15px;
+}
+
+.checkbox.pink {
+    border-color: #E786D7;
+}
+
+.audience-reach span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+    font-family: "Gilroy-Semibold";
+}
+
+.audience-reach input[type="text"]{
+    border: none;
+    width: 155px;
+    margin-left: 150px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+    font-family: inherit;
+}
+
+.audience-reach table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 44px;
+    position: relative; 
+    width: 100%;  
+}
+
+.audience-reach table img {
+    position: absolute;    
+    width: 87.5%;
+    top: -2px;
+    left: -2px;
+}
+
+.audience-reach th {
+    text-align: left;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    padding-top: 10px;    
+}
+
+.audience-reach td {
+    border: 1px solid #EFF3F9;    
+    height: 25px;
+}
+
+.bottom-dash {
+    position: relative;
+}
+
+.bottom-dash div {
+    width: 1px;
+    height: 4px;
+    background-color: #979797;
+    position: absolute;
+    bottom: -5px;
+    left: -1px;
+    
+}
+
+.left-dash {
+    position: relative;
+}
+
+.left-dash span, .left-dash div { 
+    position: absolute;  
+
+}
+.top span{
+    top: -9px;
+    left: -20px;
+    color: #979797;
+}
+
+.middle span {
+    top: 17px;
+    left: -28px;
+    color: #979797;
+}
+
+.bottom span {
+    top: 42px;
+    left: -20px; 
+    color: #979797;
+}
+
+.top div, .middle div, .bottom div {
+    width: 7px;
+    height: 1px;
+    background-color: #979797;
+    position: absolute;
+}
+
+.top div {
+    top: -1px;
+    left: -7px;
+}
+
+.middle div {
+    top: 24px;
+    left: -7px;
+}
+
+.bottom div {
+    top: 49px;
+    left: -7px;
+}
