@@ -14,5 +14,5 @@ Landing page with adaptive view. No designs for tablet and mobile were provided.
 
 Deploy: https://yellographics.github.io/HTML-CSS-PRACTICE/STAT%20-%20dashboard/index.html
 
-Desktop dashboard with different with different charts. For pie chart I created SVG. Toggle is mage without JS.
+Desktop dashboard with different charts. For pie chart I created SVG. Toggle is mage without JS.
 Audience reach and Gender/Age panels are made like tables (according to the task during the studies).
